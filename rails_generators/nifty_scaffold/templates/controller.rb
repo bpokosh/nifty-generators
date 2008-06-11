@@ -1,3 +1,5 @@
 class <%= plural_class_name %>Controller < ApplicationController
-  <%= controller_methods :actions %>
+  make_resourceful do
+    actions :all
+  end
 end
