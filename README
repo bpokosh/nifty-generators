@@ -2,6 +2,8 @@
 
 A collection of useful Rails generator scripts by Ryan Bates.
 
+This fork converts the views from ERb to HAML.
+
 
 == Install
 
